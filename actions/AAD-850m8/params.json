@@ -1,0 +1,29 @@
+{
+    "category": "plugins",
+    "display": "Get URL Parameters",
+    "fields": {
+        "AAE": {
+            "caption": "Current URL",
+            "editor": "DynamicValue",
+            "name": "current_url",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AAF": {
+            "caption": "Parameters as String",
+            "name": "params",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAG": {
+            "caption": "Parameters as List",
+            "is_list": true,
+            "name": "params_list",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "type": "server_side"
+}
